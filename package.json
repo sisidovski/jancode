@@ -4,13 +4,14 @@
   "description": "Utilities for Japanese Article Number code",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/sisidovski/jan.git"
   },
-  "author": "Shunya Shishido",
+  "author": "Shunya Shishido <arerreee@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sisidovski/jan/issues"
