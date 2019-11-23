@@ -1,0 +1,23 @@
+{
+  "name": "jan",
+  "version": "0.0.1",
+  "description": "Utilities for Japanese Article Number code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sisidovski/jan.git"
+  },
+  "author": "Shunya Shishido",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sisidovski/jan/issues"
+  },
+  "homepage": "https://github.com/sisidovski/jan#readme",
+  "devDependencies": {
+    "@types/node": "^12.12.12",
+    "typescript": "^3.7.2"
+  }
+}
