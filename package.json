@@ -1,7 +1,7 @@
 {
-  "name": "jan",
+  "name": "jancode",
   "version": "0.0.1",
-  "description": "Utilities for Japanese Article Number code",
+  "description": "Utilities for Japanese Article Number code (JANコード) and periodic publication code (定期刊行物コード)",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
