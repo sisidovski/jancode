@@ -2,10 +2,11 @@
   "name": "jancode",
   "version": "0.0.1",
   "description": "Utilities for Japanese Article Number code (JANコード) and periodic publication code (定期刊行物コード)",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepublishOnly": "npm run build"
   },
   "repository": {
     "type": "git",
