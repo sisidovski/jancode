@@ -14,10 +14,10 @@ npm install -d jancode
 const jancode = require('jancode');
 
 // Output JAN code
-jancode.create({32433, 2019, 3});
+jancode.create({code: 32433, year: 2019, month: 3});
 // => 4910324330393
 
 // Extract a magazine code from JAN code
-jancode.getPeriodicalPublicationCode('4910234234')
+jancode.getMagazineCode(4910234234)
 // => '32433'
 ```
