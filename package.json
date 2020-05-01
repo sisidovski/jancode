@@ -1,6 +1,6 @@
 {
   "name": "jancode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utilities for Japanese Article Number code (JANコード) and periodic publication code (定期刊行物コード)",
   "main": "dist/index.js",
   "scripts": {
