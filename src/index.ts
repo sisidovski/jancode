@@ -38,7 +38,7 @@ const getCheckDigit = (code: string): string => {
 
   const total = even * 3 + odd;
 
-  return (10 - getLastDigit(total)).toString(10);
+  return ((10 - getLastDigit(total)) % 10).toString(10);
 };
 
 /**
